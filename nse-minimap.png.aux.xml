@@ -1,0 +1,68 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="Description">Graphics set: OpenGFX (7019)
+NewGRFs:
+4D480201 9E914C31E5FC7FC3F686D009BD55F331 alexandra_palace-1.0.0/alexandrapalace.grf
+424B5462 83FE5AA7CAFF0A307B44B297F2A259D6 bk_enhanced_tunnel_set-1.0/bktunw.grf
+4D42000A BC3A0E791C74C1A04A3B90C3B2FA83A6 bats-0.4/batsv0.4w.grf
+4A430001 4CF50E2A770F6672A77A8842A3129ECA british_stations_set-0.0.4final/dstatsw.grf
+43485053 68B7DC640138E4F4B712F3CFB88167D6 chips_station_set-1.4.0/chips.grf
+52455400 1600687C50C5AB1E72EDD487CAD50E2A coded_by_aegir._artwork_by_aegir-1/ae_cityw.grf
+504A0012 758F1431021C2E4319F7AE2F409122D8 custom_tunnel_entrances-0.3/customtunnel_v0_3.grf
+58534453 2E100BCA91DB8371CD9D57DBEC3AB0C8 dutch_stations_set-1.0.0alpha/dutchstatw.grf
+504A0110 E8244C5278CB2408A818854DC11F8940 dutch_station_addition_set-0.8/dstatadd_v0_8.grf
+44578619 B30A5E35634A59D2BDD9C2389CEDBF2C dwestationtiles__fences-v1.2/fences.grf
+44573452 48CF5FC0DEB895136F337A7E563FC66D dwestationtiles_industrial_ter-v0.7/dwe_stat_r.grf
+52571203 7CE88A25DDB058C1BE577B88D049B274 egrvts2-188/egrvts2.grf
+4A430002 93EAC5F5396584B92D4C5F0AAAF3F6C5 industrial_stations_renewal-1.0.2/indstatr.grf
+41570102 CD86DA4FC58F68393F060B8E0211AEC8 modern_waypoint-2/modern_waypoint2.grf
+444A5401 B9E9E16F258B32DC91E8BABEF037AFA7 nutracks-r247/nutracks.grf
+52455200 0E5A9C5ACD2BCAF7FA0658C3F905A660 rural_stations-1/ae_ruraw.grf
+52455300 37C0B839B13C4B18051580C81EEDF427 suburban_stations-1/ae_subuw.grf
+44442411 E6A38D0DC67DE54DD2928447BB72F924 tai_uk_houses-gamma1/tai_uk.grf
+44441000 DA36131A815D2D5FC158C7A27D67B5AF ukrs2__the_uk_railway_set-1.05/proj1000.grf
+44441001 83915879F68DD174C953868C0629A4C9 ukrs2_uk_railway_addon_set-gobi/pj1kadd.grf
+554B5201 0D9C15FF1DC9AA50702780A730D9C650 uk_roadset.1.1/ukroadsetw.grf
+504E0001 E7781323D2B0086E2E76342DAA036054 uk_waypoints-1/ukwaypointsw.grf
+444E0400 735D3D74D5DCADBF1FD6EF7A9C5A3519 vast_station_tiles-0.2.0/vast.grf
+444E0C00 B5D2AB5FC93A09E1FAB5F0DB82307ECF vast_fences-0.2.0/vastfences.grf
+
+Companies:
+ 0: Human
+</MDI>
+    <MDI key="Software">jgrpp-0.34.3</MDI>
+  </Metadata>
+  <Metadata domain="IMAGE_STRUCTURE">
+    <MDI key="INTERLEAVE">PIXEL</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">64</MDI>
+      <MDI key="STATISTICS_MEAN">62.999893188477</MDI>
+      <MDI key="STATISTICS_MINIMUM">16</MDI>
+      <MDI key="STATISTICS_STDDEV">6.3369994669757</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="2">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">144</MDI>
+      <MDI key="STATISTICS_MEAN">110.94532775879</MDI>
+      <MDI key="STATISTICS_MINIMUM">16</MDI>
+      <MDI key="STATISTICS_STDDEV">13.055873878571</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="3">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">232</MDI>
+      <MDI key="STATISTICS_MEAN">16.397415161133</MDI>
+      <MDI key="STATISTICS_MINIMUM">12</MDI>
+      <MDI key="STATISTICS_STDDEV">30.134352204282</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
