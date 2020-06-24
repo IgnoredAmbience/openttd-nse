@@ -91,17 +91,17 @@ var lyr_Grid100_5 = new ol.layer.Vector({
 lyr_OpenStreetMap_0.setVisible(true);lyr_nseminimap_1.setVisible(true);lyr_signs_2.setVisible(true);lyr_Grid_3.setVisible(true);lyr_Grid10_4.setVisible(true);lyr_Grid100_5.setVisible(true);
 var layersList = [lyr_OpenStreetMap_0,lyr_nseminimap_1,lyr_signs_2,lyr_Grid_3,lyr_Grid10_4,lyr_Grid100_5];
 lyr_signs_2.set('fieldAliases', {'x': 'x', 'y': 'y', 'owner': 'owner', 'text': 'text', });
-lyr_Grid_3.set('fieldAliases', {'id': 'id', 'left': 'left', 'top': 'top', 'right': 'right', 'bottom': 'bottom', });
-lyr_Grid10_4.set('fieldAliases', {'id': 'id', 'left': 'left', 'top': 'top', 'right': 'right', 'bottom': 'bottom', });
-lyr_Grid100_5.set('fieldAliases', {'id': 'id', 'left': 'left', 'top': 'top', 'right': 'right', 'bottom': 'bottom', });
+lyr_Grid_3.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'left': 'left', 'top': 'top', 'right': 'right', 'bottom': 'bottom', });
+lyr_Grid10_4.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'left': 'left', 'top': 'top', 'right': 'right', 'bottom': 'bottom', });
+lyr_Grid100_5.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'left': 'left', 'top': 'top', 'right': 'right', 'bottom': 'bottom', });
 lyr_signs_2.set('fieldImages', {'x': 'Range', 'y': 'Range', 'owner': 'Range', 'text': 'TextEdit', });
-lyr_Grid_3.set('fieldImages', {'id': 'TextEdit', 'left': 'TextEdit', 'top': 'TextEdit', 'right': 'TextEdit', 'bottom': 'TextEdit', });
-lyr_Grid10_4.set('fieldImages', {'id': 'TextEdit', 'left': 'TextEdit', 'top': 'TextEdit', 'right': 'TextEdit', 'bottom': 'TextEdit', });
-lyr_Grid100_5.set('fieldImages', {'id': 'TextEdit', 'left': 'TextEdit', 'top': 'TextEdit', 'right': 'TextEdit', 'bottom': 'TextEdit', });
+lyr_Grid_3.set('fieldImages', {'fid': '', 'id': 'TextEdit', 'left': 'TextEdit', 'top': 'TextEdit', 'right': 'TextEdit', 'bottom': 'TextEdit', });
+lyr_Grid10_4.set('fieldImages', {'fid': '', 'id': 'TextEdit', 'left': 'TextEdit', 'top': 'TextEdit', 'right': 'TextEdit', 'bottom': 'TextEdit', });
+lyr_Grid100_5.set('fieldImages', {'fid': '', 'id': 'TextEdit', 'left': 'TextEdit', 'top': 'TextEdit', 'right': 'TextEdit', 'bottom': 'TextEdit', });
 lyr_signs_2.set('fieldLabels', {'x': 'inline label', 'y': 'inline label', 'owner': 'inline label', 'text': 'inline label', });
-lyr_Grid_3.set('fieldLabels', {'id': 'no label', 'left': 'no label', 'top': 'no label', 'right': 'no label', 'bottom': 'no label', });
-lyr_Grid10_4.set('fieldLabels', {'id': 'no label', 'left': 'no label', 'top': 'no label', 'right': 'no label', 'bottom': 'no label', });
-lyr_Grid100_5.set('fieldLabels', {'id': 'no label', 'left': 'no label', 'top': 'no label', 'right': 'no label', 'bottom': 'no label', });
+lyr_Grid_3.set('fieldLabels', {'fid': 'no label', 'id': 'no label', 'left': 'no label', 'top': 'no label', 'right': 'no label', 'bottom': 'no label', });
+lyr_Grid10_4.set('fieldLabels', {'fid': 'no label', 'id': 'no label', 'left': 'no label', 'top': 'no label', 'right': 'no label', 'bottom': 'no label', });
+lyr_Grid100_5.set('fieldLabels', {'fid': 'no label', 'id': 'no label', 'left': 'no label', 'top': 'no label', 'right': 'no label', 'bottom': 'no label', });
 lyr_Grid100_5.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });

@@ -5,7 +5,7 @@ function categories_signs_2(feature, value, size, resolution, labelText,
                        placement) {
                 switch(value.toString()) {case '0':
                     return [ new ol.style.Style({
-        image: new ol.style.Circle({radius: 3.999999999999997 + size,
+        image: new ol.style.Circle({radius: 4.0 + size,
             stroke: new ol.style.Stroke({color: 'rgba(50,87,128,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1}), fill: new ol.style.Fill({color: 'rgba(72,123,182,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
@@ -14,7 +14,7 @@ function categories_signs_2(feature, value, size, resolution, labelText,
                     break;
 case '18':
                     return [ new ol.style.Style({
-        image: new ol.style.Circle({radius: 3.9999999999999987 + size,
+        image: new ol.style.Circle({radius: 4.0 + size,
             stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1}), fill: new ol.style.Fill({color: 'rgba(255,255,255,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
